@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /checkout
 Disallow: /confirmation
-Sitemap: https://radiantedge-permanent-lighting-santa-ana.pages.dev/sitemap.xml
+Sitemap: https://radiantedge-permanent-lighting-santa-ana.netlify.app/sitemap.xml

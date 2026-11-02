@@ -23,6 +23,10 @@ export default function Footer() {
           </Link>
           <p className="foot__statement">Clean lines of light for {BUSINESS.city} homes — permanent or just for the season.</p>
           <a href={BUSINESS.phoneHref} className="foot__phone"><Phone width={22} height={22} /> {BUSINESS.phoneDisplay}</a>
+          <p className="foot__contact">
+            <a href={`mailto:${BUSINESS.email}`}>{BUSINESS.email}</a>
+            <span>{BUSINESS.hours}</span>
+          </p>
           <p className="foot__fine">Based in {BUSINESS.city}, {BUSINESS.region}. ${DEPOSIT} reservation deposit applied to your final invoice.</p>
         </div>
 

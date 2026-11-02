@@ -15,7 +15,6 @@ Vite + React site with a 6-step booking flow, Cloudflare Worker + D1 booking API
 Everything editable is in `src/config/site.js`: phone, prices (`null` = "Online quoting"), add-ons, cities, FAQ, takedown timing, gallery.
 
 TODOs before launch:
-- Real phone number (`BUSINESS.phoneDisplay` / `phoneHref`, plus `telephone` in `index.html` JSON-LD).
 - Starting prices, if you want them shown instead of "Online quoting".
 - Confirm the service-area city list and takedown timing.
 - Real Google reviews → `REVIEWS` (the placeholder panel disappears automatically). Add the GBP review link to `BUSINESS.googleReviewUrl`.

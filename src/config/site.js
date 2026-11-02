@@ -9,8 +9,10 @@ export const BUSINESS = {
   shortName: 'RadiantEdge',
   city: 'Santa Ana',
   region: 'CA',
-  phoneDisplay: '555-555-555',
-  phoneHref: 'tel:555555555',
+  phoneDisplay: '714-975-5465',
+  phoneHref: 'tel:+17149755465',
+  email: 'torralbaanthony385@gmail.com',
+  hours: 'Open daily, 7 AM – 8 PM',
   // TODO: add the Google Business Profile review link once the profile is live.
   googleReviewUrl: '',
 };
